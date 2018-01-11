@@ -1,0 +1,38 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{ragged2e}
+\usepackage{amsmath}
+\usepackage[scale=0.80, top=2cm, bottom=1.5cm]{geometry}  
+\title{Statistics and Probability}
+\author{Micol de Ruvo}
+
+\begin{document}
+\maketitle
+\section*{Key Concepts}
+
+\subsection*{Inference}
+
+Inference is the process of drawing conclusions about a population using a sample. In statistical inference, we must account for the uncertainty in our estimates in a principled way. Hypothesis tests and confidence intervals are among the most common forms of statistical inference. 
+These statements apply generally, and, of course, to the regression setting that we've been studying. In the next few lectures, we'll cover inference in regression where we make some Gaussian assumptions about the errors.
+
+\subsection*{Variability}
+
+An important characterization of a population is how spread out it is. One of the key measures of spread is variability. We measure population variability with the sample variance, or more often we consider the square root of both, called the standard deviation. The reason for taking the standard deviation is because that measure has the same units as the population. So if our population is a length measurement in meters, the standard deviation is in meters (whereas the variance is in meters squared).
+
+Variability has many important uses in statistics. First, the population variance is itself an intrinsically interesting quantity that we want to estimate. Secondly, variability in our estimates is what makes them not imprecise. An important aspect of statistics is quantifying the variability in our estimates.
+
+
+\section*{Linear Regression Model}
+
+\[Y=\beta_{0}-\beta_{1}X\]
+
+\[Var(X)=\frac{1}{(n-1)}\sum(X_{i}-µ)\]
+Intercept: \[\beta_{1}=Cor(Y,X)\frac{S_{d}Y}{S_{d}X}\]
+
+
+\section*{Probability}
+
+If the events are independent: 
+\[P(AintB)=P(A)XP(B)\]
+\end{document}
+
+
